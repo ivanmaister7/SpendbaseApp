@@ -67,6 +67,7 @@
 		AF03764A2AEBE7BF00C3B697 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				AF0376562AEC26FC00C3B697 /* MockData.swift */,
 				AF03764B2AEBE7F100C3B697 /* BankingAPI.swift */,
 			);
 			path = Networking;
@@ -83,6 +84,7 @@
 		AF0376582AEC457400C3B697 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AF0376642AEC4FB200C3B697 /* PartnerCircleView */,
 				AF0376602AEC469700C3B697 /* Transaction */,
 				AF03765E2AEC462000C3B697 /* Card */,
 				AF03765D2AEC45E300C3B697 /* CardDetailsScreen */,
@@ -153,6 +155,14 @@
 			path = Lists;
 			sourceTree = "<group>";
 		};
+		AF0376642AEC4FB200C3B697 /* PartnerCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				AF0376482AEBD84100C3B697 /* PartnerCircleView.swift */,
+			);
+			path = PartnerCircleView;
+			sourceTree = "<group>";
+		};
 		AFD0EED22AE92C2E00ACEB3F = {
 			isa = PBXGroup;
 			children = (
@@ -181,8 +191,6 @@
 				AFD0EEE22AE92C3200ACEB3F /* Assets.xcassets */,
 				AFD0EEE42AE92C3200ACEB3F /* Preview Content */,
 				AF03763A2AEABA7C00C3B697 /* Extension.swift */,
-				AF0376482AEBD84100C3B697 /* PartnerCircleView.swift */,
-				AF0376562AEC26FC00C3B697 /* MockData.swift */,
 			);
 			path = Spendbase;
 			sourceTree = "<group>";
